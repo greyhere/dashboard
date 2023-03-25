@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #fcfbfe;
+  --secondary: #292d2e;
+
+  --text-primary: #292d2e;
+  --text-secondary: #fcfbfe;
+
+  --hover: #efeef1;
+
+  --warning: #e75a4f;
+  --success: #4186f3;
+
+  --green: #afebd6;
+  --brown: #e3c6ab;
+}
+
+[data-theme='dark'] {
+  --primary: #181b1c;
+  --secondary: #f7f9f8;
+
+  --text-primary: #f7f9f8;
+  --text-secondary: #181b1c;
+
+  --hover: #26292d;
+}
